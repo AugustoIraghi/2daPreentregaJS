@@ -81,14 +81,14 @@ moreText= "0. No deseo comprar nada mas.\nSeleccione la cerveza que quiera con e
 do{
     numeroElegido=prompt(listarCervezas+moreText)
     numeroElegido=numeroElegido.toUpperCase()
-    alert(numeroElegido+typeof(numeroElegido))
+    //alert(numeroElegido+typeof(numeroElegido))
 if(numeroElegido=="0"){
     moreBeer=false
 
 }else if(numeroElegido=="INFO"){
     infoSobre=prompt("Seleccione sobre que cerveza desea saber más información"+listarCervezas)
     descripcionCerveza=cervezas[infoSobre] 
-    alert(descripcionCerveza.nombre+":\n"+descripcionCerveza.descripcion)
+    //alert(descripcionCerveza.nombre+":\n"+descripcionCerveza.descripcion)
     alert("Seleccione que cerveza va a querer comprar a continuacion.")
     moreBeer=true
 
@@ -96,8 +96,8 @@ if(numeroElegido=="0"){
     numeroElegido=Math.floor(numeroElegido)
     cantidadElegida=Number(prompt("Que cantidad de cervezas va a querer"))
     cervezas[numeroElegido].cantidad += cantidadElegida
-    alert(typeof(cervezas[numeroElegido].cantidad))
-    alert(cervezas[numeroElegido].cantidad)
+    //alert(typeof(cervezas[numeroElegido].cantidad))
+    //alert(cervezas[numeroElegido].cantidad)
     moreBeer=true    
 } else{
     alert("Por favor seleccione una opcion valida")
