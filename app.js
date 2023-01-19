@@ -94,6 +94,7 @@ if(numeroElegido=="0"){
 
 }else if(numeroElegido>0 && numeroElegido<11){
     numeroElegido=Math.floor(numeroElegido)
+    numeroElegido+=numeroElegido
     cantidadElegida=Number(prompt("Que cantidad de cervezas va a querer"))
     cervezas[numeroElegido].cantidad += cantidadElegida
     //alert(typeof(cervezas[numeroElegido].cantidad))
