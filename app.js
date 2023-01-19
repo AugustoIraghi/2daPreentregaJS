@@ -115,5 +115,5 @@ if(numeroElegido=="0"){
 
 let saldoCarrito = cervezas.reduce((acumulador,actual)=> {
     console.log(actual.cantidad+" "+actual.precio)
-    acumulador+(actual.cantidad*actual.precio),0)
+    acumulador+(actual.cantidad*actual.precio),0}
 alert("El total de su compra es de $"+saldoCarrito)
